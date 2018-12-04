@@ -19,10 +19,10 @@ img {
 }
 
 .container {
-	width: 345px;
  margin: 0 auto;
- border: 1px solid red;
+ border: 1px solid transparent;
  padding: 0 0;
+ width: 345px;
  @media (min-width: #{$tablet-width}) {
 		width: 720px;
  }
