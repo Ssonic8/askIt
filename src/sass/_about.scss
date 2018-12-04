@@ -1,0 +1,140 @@
+.about {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	z-index: 20;
+	color: #037693;
+	min-height: 343px;
+	&-title {
+		display: flex;
+		justify-content: center;
+		& h2 {
+			position: relative;
+			font-size: 28px;
+			font-weight: 300;
+			letter-spacing: 0.1em;
+			&::after {		
+				position: absolute;
+				content: '';
+				width: 44px;
+				bottom: -6px;
+				left: 2px;
+				height: 2px;
+				background: url('../img/about/rectangle.png') 0 0 no-repeat;
+				background-size: cover;
+			}	
+		}
+	}
+	&-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style: none;
+		margin-bottom: 5px;
+		width: 90%;
+		padding-left: 0;
+		&__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin: 5px 10px;
+			width: 40%;
+		}
+		&__img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 49px;
+			height: 49px;
+			border: 1px solid #037693;
+			border-radius: 1px;
+			& img {
+				height: 30px;
+			}
+		}
+		&__content {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 60px;
+			& p {
+				text-align: center;
+				margin: 0;
+				padding: 0;
+				font-size: 11px;
+				font-weight: 400;
+				line-height: 14px;
+			}
+		}
+	}	
+}
+
+@media (min-width: #{$tablet-width}) {
+	.about {
+		min-height: 190px;
+	}
+	.about-list {
+		width: 98%;
+		margin-bottom: 10px;
+		&__item {
+		width: 22%;
+		}
+		&__img {
+			width: 58px;
+			height: 58px;
+			& img {
+				height: 34px;
+			}
+		}
+		&__content p {
+			margin-top: 10px;
+			font-size: 14px;
+			line-height: 16px;
+		}
+	}
+}
+
+
+@media (min-width: #{$desktop-width}) {
+	.about {
+		min-height: 434px;
+		&-title h2 {
+			margin-top: 75px;
+			margin-bottom: 50px;
+			font-size: 40px;
+			font-weight: 300;
+			&::after {		
+				position: absolute;
+				content: '';
+				width: 65px;
+				bottom: -14px;
+				left: 2px;
+				height: 3px;
+				background: url('../img/about/rectangle.png') 0 0 no-repeat;
+				background-size: cover;
+			}	
+		}
+	}
+	.about-list {
+		width: 98%;
+		margin-bottom: 10px;
+		&__item {
+		width: 22%;
+		}
+		&__img {
+			width: 80px;
+			height: 80px;
+			& img {
+				height: 46px;
+			}
+		}
+		&__content p {
+			margin-top: 30px;
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 22px;
+		}
+	}
+}

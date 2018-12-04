@@ -4,6 +4,7 @@
 	width: 100%;
 	min-height: 96px;
 	margin: 0 auto;
+	z-index: 0;
 &__logo {
 	display: block;
 	height: 84px;
@@ -261,7 +262,7 @@
 		}
 	}
 	.header-title,.header-buttons {
-		width: 70%;
+		width: 65%;
 	}
 	.header-bottom {
 		position: relative;
@@ -275,7 +276,7 @@
 			position: absolute;
 			width: 220px;
 			height: 400px;
-			bottom: -120px;
+			bottom: -96px;
 			right: 22px;
 		}
 	}
@@ -353,7 +354,7 @@
 	.header-title {
 		margin-top: 185px;
 		& h1 {
-			font-size: 40px;
+			font-size: 42px;
 			&:after {
 				bottom: -14px;
 				width: 180px;
@@ -361,7 +362,7 @@
 			}
 		}
 		& h2 {
-			margin-top: 26px;
+			margin-top: 32px;
     	margin-bottom: 125px;
     	padding-left: 110px;
 			font-size: 22px;
@@ -371,32 +372,24 @@
 	.header-bottom {
 		min-height: 630px;
 		&__img {
-			width: 320px;
-			height: 570px;
-			bottom: -150px;
+			width: 340px;
+			height: 610px;
+			bottom: -140px;
 			right: 0px;
 		}
 	}
+	.header-buttons {
+		margin-bottom: 170px;
+	}
 	.header-button {
 		position: relative;
-		padding: 12px 15px;
+		padding: 11px 15px;
 		font-size: 16px;
 		font-weight: 400;
 	}
 	.header-button__o {
-		&::after {
-			position: absolute;
-			content: '';
-			width: 80px;
-			height: 9px;
-			left: 50%;
-			margin-left: -40px;
-			top: 50%;
-			margin-top: -4px;
-			background-color: transparent;
-			box-shadow: 0 0 30px rgba(0, 0, 0, 1);
-		}
 	}
+	
 		
 	
 
