@@ -20,7 +20,7 @@ img {
 
 .container {
  margin: 0 auto;
- border: 1px solid transparent;
+ border: 1px solid red;
  padding: 0 0;
  width: 345px;
  @media (min-width: #{$tablet-width}) {

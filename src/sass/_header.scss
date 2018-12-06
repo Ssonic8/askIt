@@ -167,7 +167,7 @@
 		bottom: -3px;
 		right: 0;
 		height: 3px;
-		background: url('../img/header/rectangle.png') 0 0 no-repeat;
+		background: url('../img/rectangle.png') 0 0 no-repeat;
 		background-size: cover;
 		}	
 	}	
@@ -342,8 +342,15 @@
 	.site-list {
 		font-size: 18px;
 		align-items: center;
-		&__item a {
-			margin: auto;
+		&__item {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 100%;
+			margin-top: 1px;
+			& a {
+				margin: auto;
+			}
 		}
 	}
 	.user-list {
