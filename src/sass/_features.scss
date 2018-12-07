@@ -156,6 +156,11 @@
 			margin-bottom: 30px;
 			font-size: 42px;
 			line-height: 42px;
+			&::after {
+				width: 65px;
+				height: 3px;
+				bottom: -10px;
+			}
 		}
 		&__item {
 			width: 215px;

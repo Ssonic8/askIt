@@ -137,7 +137,7 @@
 			justify-content: space-between;
 			align-items: center;
 			margin-bottom: 150px;
-			min-height: 280px;
+			min-height: 290px;
 		}
 		&__item {
 			width: 231px;
@@ -284,8 +284,9 @@
 			}
 		}
 		&__list {
-			margin: 40px auto;
+			margin: 10px auto;
 			width: 900px;
+			min-height: 370px;
 		}
 		&__item {
 			width: 280px;
