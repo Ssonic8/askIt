@@ -245,7 +245,7 @@
 			padding: 16px 5px;
 			&:hover {
 				font-weight: 300;
-				padding: 14px 5px 18px 5px;
+				padding: 10px 5px 10px 5px;
 			}
 		}
 	}
@@ -359,6 +359,7 @@
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
+			padding: 0px 5px;
 			height: 100%;
 			margin-top: 1px;
 			& a {
@@ -408,14 +409,7 @@
 		font-size: 16px;
 		font-weight: 400;
 	}
-	.header-button__o {
-	}
-	
-		
-	
-
 }
-
 
 
 
