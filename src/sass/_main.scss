@@ -1,5 +1,5 @@
 body {
-	min-width: 375px;
+  min-width: 345px;
 	margin: 0;
  background-color: #fff;
  font-family: 'Lato', sans-serif;
@@ -24,10 +24,12 @@ img {
  padding: 0 0;
  width: 345px;
  @media (min-width: #{$tablet-width}) {
-		width: 720px;
+		/* width: 720px; */
+    width: 98%;
  }
  @media (min-width: #{$desktop-width}) {
-		width: 980px;
+		/* width: 980px; */
+    width: 98%;
  }
 }
 

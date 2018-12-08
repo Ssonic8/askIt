@@ -34,6 +34,7 @@
 		padding-left: 0;
 		margin-top: 0;
 		width: 90%;
+		max-width: 400px;
 	}
 	&__item {
 		cursor: pointer;
@@ -106,6 +107,7 @@
 		}
 		&__list {
 			width: 100%;
+			max-width: 900px;
 		}
 		&__item {
 			margin: 25px;
@@ -161,6 +163,9 @@
 				height: 3px;
 				bottom: -10px;
 			}
+		}
+		&__list {
+			max-width: 1050px;
 		}
 		&__item {
 			width: 215px;
