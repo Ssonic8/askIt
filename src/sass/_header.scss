@@ -14,13 +14,17 @@
 		}
 	}
 }
+/* .main-menu--show {
+	display: flex;
+	flex-direction: column;
+} */
 .main-nav {
 	position: relative;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 &__wrapper {
-	display: none;
+	display: flex;
 	flex-direction: column;
 	}
 &__toggle {

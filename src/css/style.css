@@ -72,6 +72,11 @@ input[type="checkbox"].visually-hidden {
   height: 67px;
 }
 
+/* .main-menu--show {
+	display: flex;
+	flex-direction: column;
+} */
+
 .main-nav {
   position: relative;
   display: flex;
@@ -80,7 +85,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .main-nav__wrapper {
-  display: none;
+  display: flex;
   flex-direction: column;
 }
 
