@@ -25,7 +25,6 @@
 	flex-direction: column;
 	top: 90px;
 	right: -500px;
-	padding-right: 80px;
 	background-color: #000;
 	z-index: 99;
 	&--active {
@@ -91,10 +90,10 @@
 
 &__item {
 	padding-left: 20px;
+	padding-right: 80px;
 	border-top: 1px solid transparent;
 	&:hover {
 		transition: all 0.4s;
-		font-weight: 700;
 		background-color: rgba(255, 255, 255, 0.2);
 		border-top: 1px solid #fff;
 	}
